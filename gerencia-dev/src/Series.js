@@ -8,7 +8,6 @@ const status = {
     'toWatch': 'Assistir'
 }
 
-
 class Series extends Component {
 
     constructor(props){

@@ -10,10 +10,12 @@ export const loadSeriesByGenre = (genre) => api.get('series?genre='+genre)
 export const deleteSeries = (id) => api.delete('series/'+id)
 
 const apis = {
+
     loadGenres: loadGenres,
     saveSeries: saveSeries,
     loadSeriesByGenre: loadSeriesByGenre,
     deleteSeries: deleteSeries
+    
 }
 
 export default apis
