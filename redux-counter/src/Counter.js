@@ -3,13 +3,14 @@ import {connect} from 'react-redux'
 
 import {increment,decrement} from './actions'
 
-const Counter = ({count,increment,decrement}) =>{
+export const Counter = ({count,increment,decrement}) =>{
     return(
         <p>
-            Contador: {count}
+            Contador: 
+            <span className="counter">{count}</span>
             <br></br>
-            <button onClick={() =>increment(10)}>+</button>
-            <button onClick={() =>decrement(10)}>-</button>
+            <button className="increment" onClick={() =>increment(10)}>+</button>
+            <button className="decrement" onClick={() =>decrement(10)}>-</button>
         </p>
     )
 }
