@@ -1,8 +1,8 @@
 import React from 'react'
 import {connect} from 'react-redux'
-import {loadData} from './actions'
+import {loadUA} from './actions'
 
-export class Info extends React.Component{
+export class UserAgent extends React.Component{
     
     componentDidMount(){
         this.props.loadData()
@@ -15,7 +15,7 @@ export class Info extends React.Component{
         if(this.props.error){
             return <span>Error: {JSON.stringify(this.props.err.status)} </span>
         }
-        return <span>Info: {JSON.stringify(this.props.data)}</span>
+        return <span>UserAgent: {JSON.stringify(this.props.data)}</span>
         
     }
 }
@@ -23,17 +23,17 @@ export class Info extends React.Component{
 
 const mapStateToProps=(state) => {
     return {
-        isFetching: state.ip.isFetching ,
-        data: state.ip.data,
-        error: state.ip.error,
-        err: state.ip.err
+        isFetching: state.ua.isFetching ,
+        data: state.ua.data,
+        error: state.ua.error,
+        err: state.ua.err
     }
 }
 
 const mapDispatchtToProps=(dispatch) =>{
     return{
-        loadData: () => dispatch(loadData())
+        loadData: () => dispatch(loadUA())
     }
 }
 
-export default connect(mapStateToProps, mapDispatchtToProps)(Info)
+export default connect(mapStateToProps, mapDispatchtToProps)(UserAgent)
