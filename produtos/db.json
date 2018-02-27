@@ -1,0 +1,111 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "produto": "Sabao",
+      "categoria": 1
+    },
+    {
+      "id": 2,
+      "produto": "Agua sanitária",
+      "categoria": 1
+    },
+    {
+      "id": 3,
+      "produto": "Bolacha",
+      "categoria": 2
+    },
+    {
+      "id": 4,
+      "produto": "Arroz",
+      "categoria": 2
+    },
+    {
+      "produto": "Omo multi ação",
+      "categoria": "1",
+      "id": 5
+    },
+    {
+      "produto": "saf",
+      "categoria": "1",
+      "id": 6
+    },
+    {
+      "produto": "saf",
+      "categoria": "1",
+      "id": 7
+    },
+    {
+      "produto": "saf",
+      "categoria": "1",
+      "id": 8
+    },
+    {
+      "produto": "saf",
+      "categoria": "1",
+      "id": 9
+    },
+    {
+      "produto": "saf",
+      "categoria": "1",
+      "id": 10
+    },
+    {
+      "produto": "saf",
+      "categoria": "1",
+      "id": 11
+    },
+    {
+      "produto": "saf",
+      "categoria": "1",
+      "id": 12
+    },
+    {
+      "produto": "saf",
+      "categoria": "1",
+      "id": 13
+    },
+    {
+      "produto": "saf",
+      "categoria": "1",
+      "id": 14
+    },
+    {
+      "produto": "sabao",
+      "categoria": "1",
+      "id": 15
+    },
+    {
+      "produto": "sabao",
+      "categoria": "1",
+      "id": 16
+    },
+    {
+      "produto": "produto com redirect",
+      "categoria": "6",
+      "id": 17
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "categoria": "Limpeza"
+    },
+    {
+      "id": 2,
+      "categoria": "Alimentos"
+    },
+    {
+      "categoria": "Padaria",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "categoria": "Açouguess"
+    },
+    {
+      "id": 6,
+      "categoria": "Horti-fruites"
+    }
+  ]
+}
